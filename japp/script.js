@@ -64,19 +64,6 @@ function setAnswer() {
     console.log('Ending Index', endingIndex)
     const parsedUrl = correctanswers['imageLink'].slice(0,endingIndex);
     
-    //const myRequest = new Request(imageLink);
-
-    // fetch(myRequest)
-    //     .then((response) => {
-    //         if (response.ok){
-    //             console.log(response)
-    //             return response
-    //         }
-    //     })
-    //     .catch((response) => {
-    //         console.log(response)
-    //     })
-
     propic.src = parsedUrl
     return correctanswers
 }
@@ -106,10 +93,12 @@ function checkAnswer() {
         }
     }
 
-    document.getElementById('answerKey').removeAttribute('hidden');
+    
     document.getElementById('status-answer').innerHTML = answersFinal['status']
     document.getElementById('diagnosis-answer').innerHTML = answersFinal['diagnosis']
     document.getElementById('treatment-answer').innerHTML = answersFinal['treatment']
+
+    document.getElementById('answerKey').removeAttribute('hidden');
 
     console.log(answersFinal);
 
@@ -131,10 +120,18 @@ function playAgain(){
     for (let i =0; i< choices.length; i++){
         choices[i].checked = false
     }
+    
+
     document.getElementById('diagnosis').value = '';
     document.getElementById('treatment').value = '';
-    setAnswer()
     document.getElementById('playAgain').style.display = 'none';
+
+    document.getElementById('status-answer').hidden = true
+    document.getElementById('diagnosis-answer').hidden = true
+    document.getElementById('treatment-answer').hidden = true
+
+    setAnswer()
+    
 }
 
 
