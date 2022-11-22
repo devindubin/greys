@@ -126,11 +126,13 @@ function playAgain(){
     document.getElementById('treatment').value = '';
     document.getElementById('playAgain').style.display = 'none';
 
+    setAnswer()
+
     document.getElementById('status-answer').hidden = true
     document.getElementById('diagnosis-answer').hidden = true
     document.getElementById('treatment-answer').hidden = true
 
-    setAnswer()
+    
     
 }
 
