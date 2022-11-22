@@ -202,7 +202,7 @@ function getGuesses() {
 
     let guessValues = {
         'status': guessStatus,
-        //'patient-name': guessFields['patient-name'],
+        'treatment': guessFields['treatment'].value,
         'diagnosis': guessFields['diagnosis'].value,
         //'season': guessFields['season']
     }
