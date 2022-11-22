@@ -1,29 +1,28 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Greys Game</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body>
     <h1> The Greys Game </h1>
-    
+
     <div id="profile-pic">
         <img src="" id="propic" width="350px" height="300px">
     </div>
     <form id="game-form" name="gform">
         <div id="status-radio">
-        <input type="radio" id="status-alive" name="status-choice" value="Alive" class="guess-field">
-        <label for="status-alive">Alive</label>
-        <input type="radio" id="status-dead" name="status-choice" value="Deceased" class="guess-field">
-        
-        <label for="status-dead">Dead</label>
+            <input type="radio" id="status-alive" name="status-choice" value="Alive" class="guess-field">
+            <label for="status-alive">Alive</label>
+            <input type="radio" id="status-dead" name="status-choice" value="Deceased" class="guess-field">
+
+            <label for="status-dead">Dead</label>
         </div>
         <!-- <label for="patient-name">Patient Name</label>
         <input type="text" id="patient-name" name="guess" class="guess-field"> -->
@@ -32,7 +31,7 @@
         <label for="treatment">Treatment</label>
         <input type="text" id="treatment" name="guess" class="guess-field">
 
-        
+
     </form>
     <div id="game-board">
         <!-- <button id="submit-button">Enter</button> -->
@@ -40,23 +39,24 @@
         <!-- <button id="initpatient">New Patient</button> -->
 
         <button id="checkAnswer">Check Answer</button>
-        
+
         <button id="playAgain">Play Again?</button>
 
 
         <!-- <button id="validateGuesses">Validate</button> -->
     </div>
-    
+
     <div id="answerKey">
+        <p id="patient-name-answer"></p>
         <p id="status-answer"></p>
         <p id="diagnosis-answer"></p>
         <p id="treatment-answer"></p>
+        <p id="season-answer"></p>
     </div>
-<script
-src="https://code.jquery.com/jquery-3.6.0.min.js"
-integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script src="script.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="script.js" type="module"></script>
 </body>
+
 </html>

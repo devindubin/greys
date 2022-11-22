@@ -21,16 +21,17 @@ setAnswer()
 function initPatient() {
     let patient = myJson[Math.floor(Math.random() * myJson.length)];
     const status = patient['formatted-data']['Status'];
-    //const patientName = patient.name;
+    const patientName = patient.name;
     const diagnosis = patient['formatted-data']['Diagnosis'];
     const treatment = patient['formatted-data']['Treatment'];
-    //const season = patient['formatted-data']['Seasons'];
+    const season = patient['formatted-data']['Seasons'];
     let imageLink = patient['image'];
     let answers = {
         'status': status,
+        'patient-name': patientName,
         'treatment': treatment,
         'diagnosis': diagnosis,
-        //  'season': season,
+        'season': season,
         'imageLink': imageLink
     }
     
@@ -50,6 +51,7 @@ function setAnswer() {
         console.log(key,correctanswers[key])
         if (!correctanswers[key]){
             setAnswer()
+            return
         }
         else{
 
@@ -97,6 +99,9 @@ function checkAnswer() {
     document.getElementById('status-answer').innerHTML = answersFinal['status']
     document.getElementById('diagnosis-answer').innerHTML = answersFinal['diagnosis']
     document.getElementById('treatment-answer').innerHTML = answersFinal['treatment']
+    document.getElementById('patient-name-answer').innerHTML = answersFinal['patient-name']
+    document.getElementById('season-answer').innerHTML = answersFinal['season']
+    
 
     document.getElementById('answerKey').removeAttribute('hidden');
 
