@@ -323,7 +323,7 @@
             "Status": "Alive",
             "Alias": "Sonya Lela Beshari",
             "Diagnosis": "Alzheimer's disease",
-            "Doctor(s)": "Derek ShepherdMeredith Grey",
+            "Doctor(s)": "Derek Shepherd, Meredith Grey",
             "Marital": "Ex-husband",
             "Children": "Tarik Amin",
             "Parents": "Ahmed BeshariSaleemeh Beshari",
@@ -339,7 +339,7 @@
         "formatted-data": {
             "Status": "Alive",
             "Diagnosis": "Typhoid",
-            "Doctor(s)": "Sam BennettNaomi Bennett",
+            "Doctor(s)": "Sam Bennett, Naomi Bennett",
             "Treatment": "Antibiotics",
             "Profession": "Nun",
             "Workplace": "St. Mary's",
@@ -355,7 +355,7 @@
         "formatted-data": {
             "Status": "Alive",
             "Diagnosis": "Knee injury",
-            "Doctor(s)": "Callie TorresCharles PercyLexie Grey",
+            "Doctor(s)": "Callie Torres, Charles PercyLexie Grey",
             "Treatment": "Surgery",
             "Only": "How Insensitive",
             "Seasons": "GA: 6"
@@ -368,10 +368,10 @@
         "data": "\nAbby Anderson\n\n\n\n\n\n\nBiographical Information\n\nStatus\nAlive\n\n\n\nMedical Information\n\nDiagnosis\nShard of glass impaling the eyeFacial fractures\n\n\nDoctor(s)\nJulia CannerDerek ShepherdMark SloanLexie Grey\n\n\nTreatment\nSurgery\n\n\n\nFamilial Information\n\nSiblings\nLily AndersonMichael Anderson\n\n\nParents\nRobert Anderson \u2020Jessica Anderson \u2020\n\n\nGrandparents\nGrandma Anderson \u2020\n\n\n\nAppearances\n\nOnly\nSuddenly\n\n\nSeasons\nGA: 8\n\n\nPortrayed by\nSaige Ryan Campbell\n\n\n",
         "formatted-data": {
             "Status": "Alive",
-            "Diagnosis": "Shard of glass impaling the eyeFacial fractures",
-            "Doctor(s)": "Julia CannerDerek ShepherdMark SloanLexie Grey",
+            "Diagnosis": "Shard of glass impaling the eye, Facial fractures",
+            "Doctor(s)": "Julia Canner, Derek Shepherd, Mark SloanLexie Grey",
             "Treatment": "Surgery",
-            "Siblings": "Lily AndersonMichael Anderson",
+            "Siblings": "Lily Anderson, Michael Anderson",
             "Parents": "Robert Anderson \u2020Jessica Anderson \u2020",
             "Grandparents": "Grandma Anderson \u2020",
             "Only": "Suddenly",
@@ -386,8 +386,8 @@
         "formatted-data": {
             "Died": "2020; Seattle, Washington",
             "Status": "Deceased",
-            "Diagnosis": "COVID-19Deep vein thrombosisPulmonary embolism",
-            "Doctor(s)": "Miranda BaileyTeddy AltmanMabel Tseng",
+            "Diagnosis": "COVID-19, Deep vein thrombosis, Pulmonary embolism",
+            "Doctor(s)": "Miranda Bailey, Teddy Altman, Mabel Tseng",
             "Treatment": "Cardiopulmonary resuscitation",
             "Only": "Sign O' the Times",
             "Seasons": "GA: 17"
@@ -400,9 +400,9 @@
         "data": "\nColin Anderson\n\n\n\n\n\n\nBiographical Information\n\nStatus\nAlive\n\n\n\nMedical Information\n\nDiagnosis\nGunshot woundBroken metacarpals\n\n\nDoctor(s)\nAlex KarevJackson AveryOwen HuntCasey Parker\n\n\nTreatment\nChest tubeSurgical repairLobectomy\n\n\n\nFamilial Information\n\nParents\nSeamus Anderson\n\n\n\nAppearances\n\nOnly\nI Walk the Line\n\n\nSeasons\nGA: 15\n\n\nPortrayed by\nRiley Thomas Stewart\n\n\n",
         "formatted-data": {
             "Status": "Alive",
-            "Diagnosis": "Gunshot woundBroken metacarpals",
-            "Doctor(s)": "Alex KarevJackson AveryOwen HuntCasey Parker",
-            "Treatment": "Chest tubeSurgical repairLobectomy",
+            "Diagnosis": "Gunshot wound, Broken metacarpals",
+            "Doctor(s)": "Alex Karev, Jackson Avery, Owen Hunt, Casey Parker",
+            "Treatment": "Chest tube, Surgical repair, Lobectomy",
             "Parents": "Seamus Anderson",
             "Only": "I Walk the Line",
             "Seasons": "GA: 15"
@@ -416,8 +416,8 @@
         "formatted-data": {
             "Status": "Alive",
             "Diagnosis": "Mid-shaft transverse tibia fracture",
-            "Doctor(s)": "Callie TorresMeredith Grey",
-            "Treatment": "Closed reductionCasting",
+            "Doctor(s)": "Callie Torres, Meredith Grey",
+            "Treatment": "Closed reduction, Casting",
             "Siblings": "Holly Anderson \u2020",
             "Parents": "Mr. AndersonMrs. Anderson",
             "Only": "All By Myself",
@@ -449,7 +449,7 @@
         "data": "\nHolly Anderson\n\n\n\n\n\n\nBiographical Information\n\nStatus\nDeceased\n\n\n\nMedical Information\n\nDiagnosis\nBasilar skull fractureHemopericardiumCarotid dissectionCerebrovascular accidentBrain Death\n\n\nDoctor(s)\nAlex KarevDerek ShepherdVirginia DixonOwen HuntSadie Harris\n\n\nTreatment\nCraniotomySurgeryOrgan Harvest\n\n\n\nFamilial Information\n\nSiblings\nEmma Anderson\n\n\nParents\nMrs. AndersonMr. Anderson\n\n\n\nAppearances\n\nOnly\nAll By Myself\n\n\nSeasons\nGA: 5\n\n\nPortrayed by\nChrista B. Allen\n\n\n",
         "formatted-data": {
             "Status": "Deceased",
-            "Diagnosis": "Basilar skull fractureHemopericardiumCarotid dissectionCerebrovascular accidentBrain Death",
+            "Diagnosis": "Basilar skull fracture, Hemopericardium, Carotid dissection, Cerebrovascular accident, Brain Death",
             "Doctor(s)": "Alex KarevDerek ShepherdVirginia DixonOwen HuntSadie Harris",
             "Treatment": "CraniotomySurgeryOrgan Harvest",
             "Siblings": "Emma Anderson",
@@ -496,8 +496,8 @@
         "data": "\nMichael Anderson\n\n\n\n\n\n\nBiographical Information\n\nStatus\nAlive\n\n\n\nMedical Information\n\nDiagnosis\nGrade IV liver lacerationMalignant hyperthermia\n\n\nDoctor(s)\nMeredith GreyMiranda BaileyBen Warren\n\n\nTreatment\nOmental pedicle repair\n\n\n\nFamilial Information\n\nSiblings\nLily AndersonAbby Anderson\n\n\nParents\nJessica Anderson \u2020Robert Anderson \u2020\n\n\nGrandparents\nGrandma Anderson \u2020\n\n\n\nAppearances\n\nOnly\nSuddenly\n\n\nSeasons\nGA: 8\n\n\nPortrayed by\nBridger Zadina\n\n\n",
         "formatted-data": {
             "Status": "Alive",
-            "Diagnosis": "Grade IV liver lacerationMalignant hyperthermia",
-            "Doctor(s)": "Meredith GreyMiranda BaileyBen Warren",
+            "Diagnosis": "Grade IV liver laceration, Malignant hyperthermia",
+            "Doctor(s)": "Meredith Grey, Miranda Bailey, Ben Warren",
             "Treatment": "Omental pedicle repair",
             "Siblings": "Lily AndersonAbby Anderson",
             "Parents": "Jessica Anderson \u2020Robert Anderson \u2020",
@@ -513,11 +513,11 @@
         "data": "\nRobert Anderson\n\n\n\n\n\n\nBiographical Information\n\nStatus\nDeceased\n\n\n\nMedical Information\n\nDiagnosis\nCrushed pelvisInternal bleeding\n\n\nDoctor(s)\nCallie TorresRichard WebberOwen HuntAlex KarevMeredith Grey\n\n\nTreatment\nPelvic reductionSurgery\n\n\n\nFamilial Information\n\nMarital\nJessica Anderson \u2020 (wife)\n\n\nChildren\nLily AndersonAbby AndersonMichael Anderson\n\n\nParents\nGrandma Anderson \u2020\n\n\n\nAppearances\n\nFirst\nDark Was the Night\n\n\nLast\nSuddenly\n\n\nCount\n2\n\n\nSeasons\nGA: 8\n\n\nPortrayed by\nDan Conroy\n\n\n",
         "formatted-data": {
             "Status": "Deceased",
-            "Diagnosis": "Crushed pelvisInternal bleeding",
-            "Doctor(s)": "Callie TorresRichard WebberOwen HuntAlex KarevMeredith Grey",
-            "Treatment": "Pelvic reductionSurgery",
+            "Diagnosis": "Crushed pelvis, Internal bleeding",
+            "Doctor(s)": "Callie Torres, Richard Webber, Owen Hunt, Alex Karev, Meredith Grey",
+            "Treatment": "Pelvic reduction, Surgery",
             "Marital": "Jessica Anderson \u2020 (wife)",
-            "Children": "Lily AndersonAbby AndersonMichael Anderson",
+            "Children": "Lily Anderson, Abby Anderson, Michael Anderson",
             "Parents": "Grandma Anderson \u2020",
             "First": "Dark Was the Night",
             "Last": "Suddenly",
@@ -534,7 +534,7 @@
             "Status": "Alive",
             "Alias": "Tess Desmond",
             "Diagnosis": "Arendocortical carcinoma",
-            "Doctor(s)": "Jo KarevLevi Schmitt",
+            "Doctor(s)": "Jo Karev, Levi Schmitt",
             "Profession": "Barista",
             "Only": "Snowblind",
             "Seasons": "GA: 16"
